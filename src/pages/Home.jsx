@@ -2,11 +2,12 @@ import React from "react";
 import profile from "../assets/profile.png";
 import { Link } from "react-router-dom";
 import About from "./About";
+import Skills from "./Skills";
 
 
 const Home = () => {
   return ( 
-    <div >
+    <div className="" >
     <section className="w-full min-h-screen bg-slate-50 flex items-center rounded-lg">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start px-6 md:px-12 py-20">
 
@@ -53,8 +54,11 @@ const Home = () => {
         </div>
 
       </div>
+
+      
     </section>
     <About/>
+    <Skills/>
     </div>
     
   );

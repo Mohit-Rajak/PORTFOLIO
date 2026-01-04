@@ -1,11 +1,11 @@
 import React from "react";
+import Title from "../components/Title";
 
-const About = () => {
+const About =  () => {
   return (
-    <section className="w-full bg-slate-50 py-16 px-4 border border-gray-200 rounded-lg">
-
-      <div className="mt-10 max-w-6xl mx-auto bg-white border border-slate-200 rounded-3xl p-8 md:p-12 space-y-6 shadow-md">
-
+    <section className="w-full bg-slate-50 py-16 px-4 rounded-lg">
+      <div className="mt-12 max-w-6xl mx-auto bg-white border border-slate-200 rounded-3xl p-8 md:p-12 space-y-6 shadow-md">
+        <Title text1={"About"} text2={"me"} />
         <p className="text-slate-700 leading-relaxed md:leading-loose">
           I am a passionate and detail-oriented{" "}
           <span className="font-medium text-indigo-600">
