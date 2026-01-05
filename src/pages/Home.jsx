@@ -3,6 +3,9 @@ import profile from "../assets/profile.png";
 import { Link } from "react-router-dom";
 import About from "./About";
 import Skills from "./Skills";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Footer from "../components/Footer";
 
 
 const Home = () => {
@@ -59,6 +62,8 @@ const Home = () => {
     </section>
     <About/>
     <Skills/>
+    <Projects/>
+    <Contact/>
     </div>
     
   );
