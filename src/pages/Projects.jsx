@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import ProjectCard from '../components/ProjectCard';
+
 
 const Projects = () => {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className='mt-8 py-16 flex flex-cols'>
+       <ProjectCard/>
+       <ProjectCard/>
+       <ProjectCard/>
     </div>
   )
 }
