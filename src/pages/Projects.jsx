@@ -1,28 +1,27 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard.jsx";
-import { projects } from "../assets/assets.js";
-import Title from "../components/Title.jsx";
+import ProjectCard from "../components/ProjectCard";
+import { projects } from "../assets/assets";
+import Title from "../components/Title";
 
 const Projects = () => {
   return (
-    <div className="mt-14 py-16">
-      
-      <Title text1={"My"} text2={"Projects"} />
+    <section className="py-20 bg-slate-100 mt-12">
+      <div className="max-w-6xl mx-auto px-6">
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
-        {projects.map((project) => (
-          <ProjectCard
-            key={project.id}
-            name={project.name}
-            image={project.image}
-            description={project.description}
-            githubLink={project.githubLink}
-            liveLink={project.liveLink}
-          />
-        ))}
+        {/* Title */}
+        <div className="mb-12">
+          <Title text1="My" text2="Projects" />
+        </div>
+
+        {/* Projects Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((project) => (
+            <ProjectCard key={project.id} {...project} />
+          ))}
+        </div>
+
       </div>
-
-    </div>
+    </section>
   );
 };
 

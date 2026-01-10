@@ -1,18 +1,22 @@
-import React from 'react'
+import React from "react";
 
-const Title = ({ text1, text2 }) => {
+const Title = ({ text1, text2, center = false }) => {
   return (
-    <div className="inline-flex gap-3 items-center mb-6">
-      <p className="text-xl sm:text-2xl md:text-3xl font-medium  text-indigo-600">
-        {text1}{' '}
-        <span className="font-medium text-xl sm:text-3xl md:text-4xl">
-          {text2}
-        </span>
-      </p>
+    <div
+      className={`flex items-center gap-4 mb-10 ${
+        center ? "justify-center text-center" : ""
+      }`}
+    >
+      {/* Text */}
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold tracking-tight text-slate-900">
+        <span className="text-slate-700">{text1}</span>{" "}
+        <span className="text-indigo-600 font-bold">{text2}</span>
+      </h2>
 
-      <span className="w-6 sm:w-10 h-[2px] bg-gray-700"></span>
+      {/* Divider */}
+      <span className="hidden sm:block w-12 h-[3px] bg-gradient-to-r from-indigo-600 to-purple-500 rounded-full"></span>
     </div>
-  )
-}
+  );
+};
 
-export default Title
+export default Title;

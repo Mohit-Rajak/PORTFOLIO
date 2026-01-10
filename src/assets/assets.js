@@ -6,101 +6,179 @@ import food from "./food.png";
 import pizza from "./pizza.png";
 import Swiggy from "./Swiggy.png";
 import portfolio from "./portfolio.png";
+import Haker from "./haker.png";
+import Stock from "./stock.png";
+import password from "./password.png";
+import cake from "./cake.png";
+import HealthCare from "./HealthCare.png";
+import analog from "./analog.png";
+import music from "./music.png";
+import Education from "./Education.png";
+import Gym from "./Gym.png";
+
 
 export const assets = {
   zync,
+  Stock,
+  chat,
+  food,
+
 };
 
 // assets.js
 export const projects = [
   {
     id: 1,
-    name: "E-Commerce Website",
+    name: "E-Commerce Website (MERN, Tailwind)",
     description:
-      "A full-stack E-Commerce web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js) and styled with Tailwind CSS. The platform supports user authentication, product browsing, orders, and an Admin panel where only admins can upload and manage products.",
+      "A full-stack e-commerce web application built using the MERN stack. It includes user authentication, product listing, cart functionality, order management, and an admin panel for managing products. The UI is responsive and optimized for smooth user experience.",
     image: [zync],
     liveLink: "https://fashion-frontend-two.vercel.app/",
     githubLink: "https://github.com/mohitrajak/fashion-store",
   },
   {
     id: 2,
-    name: "Chat Application",
+    name: "Chat Application (MERN, Socket.IO)",
     description:
-      "A real-time Chat application built using the MERN stack (MongoDB, Express, React, Node.js) and styled with Tailwind CSS. It supports user authentication, group chats, and instant messaging with real-time updates via Socket.IO. The application is fully responsive and provides smooth communication with features like notifications and state management using Redux.",
+      "A real-time chat application developed using the MERN stack with Socket.IO integration. It supports user authentication, one-to-one and group chats, real-time messaging, notifications, and a fully responsive user interface for seamless communication.",
     image: [chat],
     liveLink: "https://chat-frontend-zeta-ecru.vercel.app/signin",
     githubLink: "https://github.com/Mohit-Rajak/chat-frontend",
   },
   {
     id: 3,
-    name: "Food App",
+    name: "Food Delivery App (React, CSS)",
     description:
-      "Welcome to Food App, a cutting-edge food delivery app designed to revolutionize your dining experience. Get ready to enjoy seamless food ordering with a user-friendly interface and personalized features.",
+      "A modern food delivery web application featuring restaurant listings, menu browsing, and a smooth ordering interface. Designed with a clean UI and responsive layout to provide users with an intuitive and engaging food ordering experience.",
     image: [food],
     liveLink: "https://chatapp.vercel.app/",
     githubLink: "https://github.com/Mohit-Rajak/FoodApp",
   },
   {
     id: 4,
-    name: "Airbnb Website",
+    name: "Airbnb Website (Node, Express, MongoDB)",
     description:
-      "Excited to share my journey of developing a feature-rich full-stack web application airbnb. The project is built using MongoDB, Express.js, and Node.js.",
+      "A full-stack Airbnb clone that allows users to explore listings, view property details, and manage bookings. The project focuses on backend architecture, REST APIs, authentication, and database management with a structured server-side approach.",
     image: [airbnb],
     liveLink: "https://chatapp.vercel.app/",
     githubLink: "https://github.com/Mohit-Rajak/AirbnbWebsite",
   },
   {
     id: 5,
-    name: "My PortFolio",
+    name: "Personal Portfolio (React, Tailwind)",
     description:
-      "This is my personal portfolio website showcasing my skills, projects, and experience. It serves as a digital resume and a way for potential employers or collaborators to learn more about me and my work.",
+      "A personal portfolio website showcasing skills, projects, and experience. Built with React and Tailwind CSS, it features a modern design, smooth navigation, responsive layout, and serves as a professional online presence.",
     image: [portfolio],
     liveLink: "https://myportfolio-three-olive.vercel.app/",
     githubLink: "https://github.com/Mohit-Rajak/My_Portfolio",
   },
   {
     id: 6,
-    name: "Swiggy CLone",
+    name: "Swiggy Clone (React, API)",
     description:
-      "Welcome to Food App, a cutting-edge food delivery app designed to revolutionize your dining experience. Get ready to enjoy seamless food ordering with a user-friendly interface and personalized features.",
+      "A Swiggy-inspired food ordering application with restaurant listings, dynamic menus, and cart functionality. Built to practice real-world UI patterns, API handling, and responsive design principles in modern frontend development.",
     image: [Swiggy],
     liveLink: "https://swiggy-clone-ashen-eta.vercel.app/",
     githubLink: "https://github.com/Mohit-Rajak/Swiggy_Clone",
   },
   {
     id: 7,
-    name: "Stock Spehre",
+    name: "Stock Sphere (MERN, Bootstrap)",
     description:
-      "StockSphere is a stock tracking and portfolio management web application built using the MERN stack (MongoDB, Express, React, Node.js) and styled with BootStrap CSS. The platform enables users to monitor live market data, manage stock portfolios, and utilize a custom dashboard interface with secure user authentication. It includes admin tools, responsive UI, and supports scalable backend APIs.",
-    image: ["/images/chat.png"],
+      "A stock portfolio management application built using the MERN stack. It allows users to track stocks, manage portfolios, view dashboards, and securely authenticate while maintaining a scalable backend architecture.",
+    image: [Stock],
     liveLink: "https://chatapp.vercel.app/",
     githubLink: "https://github.com/Mohit-Rajak/StockSphere",
   },
   {
     id: 8,
-    name: "AI Code Reviewers",
+    name: "AI Code Reviewer (MERN, Gemini AI)",
     description:
-      "The AI-Powered Code Reviewer is a MERN stack-based application designed to help developers review their code efficiently. It uses Google's Gemini AI to analyze code and provide detailed feedback on code quality, best practices, performance, and more. This tool is perfect for developers who want to improve their code quality and adhere to industry standards.",
+      "An AI-powered code review platform that analyzes source code and provides feedback on best practices, performance, and quality. Built using the MERN stack and integrated with Gemini AI for intelligent analysis.",
     image: [AiCode],
     liveLink: "https://chatapp.vercel.app/",
     githubLink: "https://github.com/Mohit-Rajak/AI_Code_Reviewer",
   },
   {
     id: 9,
-    name: "Pizza Landing Page",
+    name: "Pizza Landing Page (HTML, CSS, JS)",
     description:
-      "I'm thrilled to share my latest project: a dynamic and engaging pizza website built using HTML, CSS, and JavaScriptThis project aims to deliver an exceptional user experience for pizza enthusiasts. From browsing the menu to placing an order, every interaction has been thoughtfully designed to be smooth and intuitive. The website not only showcases the delicious variety of pizzas available but also provides a visually appealing and responsive interface for users.",
+      "A visually appealing pizza landing page designed with HTML, CSS, and JavaScript. It features interactive sections, responsive design, and smooth animations to enhance user engagement and browsing experience.",
     image: [pizza],
     liveLink: "https://pizza-landing-page-phi.vercel.app/",
     githubLink: "https://github.com/Mohit-Rajak/Pizza-Landing-page",
   },
   {
     id: 10,
-    name: "Education Website",
+    name: "Education Website (HTML, CSS, JS)",
     description:
-      "Welcome to the Responsive Education Website project! This repository showcases a modern, interactive, and fully responsive education platform built with HTML, CSS, and JavaScript. Our goal is to provide an intuitive and engaging online learning experience that adapts seamlessly across all devices, from desktops to smartphones.",
-    image: ["/images/chat.png"],
+      "A responsive education platform designed to showcase courses, features, and learning content. Built with a focus on accessibility, clean UI, and adaptability across devices for a better learning experience.",
+    image: [Education],
     liveLink: "https://education-website-ten-rust.vercel.app/",
     githubLink: "https://github.com/Mohit-Rajak/EducationWebsite",
   },
+  {
+    id: 11,
+    name: "Password Generator (HTML, CSS, JS)",
+    description:
+      "A simple and secure password generator that allows users to generate random passwords based on selected length. Built to demonstrate JavaScript logic, UI interaction, and basic security concepts.",
+    image: [password],
+    liveLink: "https://password-generator-eta-beige.vercel.app/",
+    githubLink: "https://github.com/Mohit-Rajak/Password_Generator",
+  },
+  {
+    id: 12,
+    name: "Analog Clock (HTML, CSS, JS)",
+    description:
+      "A functional analog clock that displays real-time updates using JavaScript. This project demonstrates DOM manipulation, CSS styling, and basic time-based logic in a clean visual format.",
+    image: [analog],
+    liveLink: "https://analog-clock-rho-sooty.vercel.app/",
+    githubLink: "https://github.com/Mohit-Rajak/Analog-Clock",
+  },
+  {
+    id: 13,
+    name: "Cake Shop Website (HTML, CSS)",
+    description:
+      "A cake shop website designed to showcase different cake categories and services. It features a clean layout, easy navigation, and responsive design suitable for small business representation.",
+    image: [cake],
+    liveLink: "https://analog-clock-rho-sooty.vercel.app/",
+    githubLink: "https://github.com/Mohit-Rajak/CakeShopWebsite",
+  },
+  {
+    id: 14,
+    name: "HealthCare Website (HTML, CSS)",
+    description:
+      "A healthcare information website built with a focus on clarity and accessibility. It presents health services, information sections, and a structured layout using modern HTML and CSS practices.",
+    image: [HealthCare],
+    liveLink: "https://health-care-website-silk.vercel.app/",
+    githubLink: "https://github.com/Mohit-Rajak/HealthCareWebsite",
+  },
+  {
+    id: 15,
+    name: "Gym Landing Page (HTML, CSS, JS)",
+    description:
+      "A gym landing page showcasing fitness services, plans, and highlights. Built with a responsive layout and interactive elements to attract users and improve visual engagement.",
+    image: [Gym],
+    liveLink: "https://gym-e-commerse-website.vercel.app/",
+    githubLink: "https://github.com/Mohit-Rajak/GYM-E-commerse-Website-",
+  },
+  {
+    id: 16,
+    name: "Spotify Web Clone (HTML, CSS, Bootstrap)",
+    description:
+      "A Spotify-inspired web clone that replicates the look and feel of the original platform. This project focuses on UI design, layout structuring, and responsiveness using Bootstrap.",
+    image: [music],
+    liveLink: "https://spotify-web-clone-gamma.vercel.app/",
+    githubLink: "https://github.com/Mohit-Rajak/Spotify-Web-Clone",
+  },
+  {
+    id: 17,
+    name: "HackerRank Login Page (HTML, CSS)",
+    description:
+      "A HackerRank-style login page designed using HTML and CSS. The project focuses on UI replication, form styling, responsiveness, and clean layout structure for frontend practice.",
+    image: [Haker],
+    liveLink: "https://spotify-web-clone-gamma.vercel.app/",
+    githubLink: "https://github.com/Mohit-Rajak/Spotify-Web-Clone",
+  },
 ];
+

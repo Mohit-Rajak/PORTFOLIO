@@ -29,8 +29,6 @@ const ProjectCard = ({
         >
           Live Demo
         </a>
-
-        {/* GitHub */}
         <a
           href={githubLink}
           target="_blank"
