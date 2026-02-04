@@ -5,7 +5,7 @@ import Title from "../components/Title";
 
 const Projects = () => {
   return (
-    <section className="py-20 bg-slate-100 mt-12">
+    <section className="py-20 bg-slate-50 mt-12">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Title */}

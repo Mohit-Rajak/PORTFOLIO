@@ -31,7 +31,7 @@ export const projects = [
     id: 1,
     name: "E-Commerce Website (MERN, Tailwind)",
     description:
-      "A full-stack e-commerce web application built using the MERN stack. It includes user authentication, product listing, cart functionality, order management, and an admin panel for managing products. The UI is responsive and optimized for smooth user experience.",
+      "A full-stack e-commerce web application built using the MERN stack. It includes user authentication, product listing, cart functionality, order management, and an admin panel for managing products.",
     image: [zync],
     liveLink: "https://fashion-frontend-two.vercel.app/",
     githubLink: "https://github.com/mohitrajak/fashion-store",
