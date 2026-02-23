@@ -34,26 +34,26 @@ export default function Resume() {
       company: "Self Learning",
       time: "2022 – Present",
       points: [
-        "Solved 500+ DSA problems on LeetCode & other platforms.",
-        "Strong grasp of arrays, strings, trees, graphs, and DP.",
+        "Solved 300+ DSA problems on LeetCode."
       ],
     },
   ];
 
   const projects = [
     {
+      title : "E-commerse Website",
+      desc : "A full-stack E-Commerce web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js) and styled with Tailwind CSS. The platform supports user authentication, product browsing, orders, and an Admin panel where only admins can upload and manage products.", 
+      link : "https://github.com/Mohit-Rajak/E-Commerce-Website"
+    },
+
+    {
       title: "Stock Sphere",
-      desc: "MERN-based stock management system with authentication and dashboards.",
+      desc: "StockSphere is a stock tracking and portfolio management web application built using the MERN stack (MongoDB, Express, React, Node.js) and styled with BootStrap CSS. The platform enables users to monitor live market data, manage stock portfolios, and utilize a custom dashboard interface with secure user authentication. It includes admin tools, responsive UI, and supports scalable backend APIs.",
       link: "https://github.com/your-github/stock-sphere",
     },
     {
-      title: "Airbnb Clone",
-      desc: "Property booking platform with listings, images, and user login.",
-      link: "https://github.com/your-github/airbnb-clone",
-    },
-    {
       title: "Real-Time Chat App",
-      desc: "Real-time chat app using WebSockets with secure authentication.",
+      desc: "A real-time Chat application built using the MERN stack (MongoDB, Express, React, Node.js) and styled with Tailwind CSS. It supports user authentication, group chats, and instant messaging with real-time updates via Socket.IO. The application is fully responsive and provides smooth communication with features like notifications and state management using Redux.",
       link: "https://github.com/your-github/chat-app",
     },
   ];
@@ -66,7 +66,6 @@ export default function Resume() {
         transition={{ duration: 0.5 }}
         className="max-w-5xl mx-auto space-y-8"
       >
-        {/* HEADER */}
         <header className="bg-white rounded-2xl p-6 shadow-sm border">
           <div className="flex flex-col gap-4">
             <h1 className="text-3xl font-bold text-gray-900">Mohit Rajak</h1>
@@ -150,7 +149,7 @@ export default function Resume() {
 
           <div className="space-y-3">
             <div>
-              <p className="font-semibold">M.Tech – CSE-Artificial Intelligence and Machine Learning (Running)</p>
+              <p className="font-semibold">M.Tech – CSE-Artificial Intelligence and Machine Learning</p>
               <p className="text-gray-600">2025 – Currently Pursuing</p>
             </div>
 
@@ -162,7 +161,6 @@ export default function Resume() {
         </section>
       </motion.section>
 
-      {/* Utility classes */}
       <style>{`
         .section-title { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem; }
         .skill-badge { padding: 0.25rem 0.75rem; background: #eff6ff; color: #1d4ed8; border-radius: 0.5rem; font-size: 0.875rem; }

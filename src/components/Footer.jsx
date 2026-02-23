@@ -11,7 +11,6 @@ const Footer = () => {
     <footer className="mt-24 bg-white text-gray-700 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
 
-        {/* Brand Section */}
         <div>
           <h2 className="text-3xl font-bold text-gray-900">
             Mohit <span className="text-indigo-600">Rajak</span>
@@ -23,7 +22,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
+      
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-5">
             Quick Links
@@ -40,7 +39,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Section */}
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-5">
             Connect With Me
