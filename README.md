@@ -91,9 +91,6 @@ https://github.com/Mohit-Rajak/PORTFOLIO/
 **Mohit Rajak**  
 Full Stack Developer (MERN Stack)
 
-LinkedIn: Add your profile link  
-GitHub: Add your GitHub link  
-
 ---
 
 ## 📄 License
